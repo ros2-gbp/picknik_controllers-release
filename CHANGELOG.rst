@@ -2,6 +2,9 @@
 Changelog for package picknik_reset_fault_controller
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.2 (2023-07-14)
+------------------
+
 0.0.1 (2023-07-11)
 ------------------
 * Initial Release of picknik_reset_fault_controller
