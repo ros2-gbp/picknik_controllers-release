@@ -1,0 +1,12 @@
+Source: ros-iron-picknik-twist-controller
+Section: misc
+Priority: optional
+Maintainer: lovro <lovro.ivanov@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake-ros, ros-iron-controller-interface, ros-iron-example-interfaces, ros-iron-geometry-msgs, ros-iron-rclcpp, ros-iron-realtime-tools, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-picknik-twist-controller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-controller-interface, ros-iron-example-interfaces, ros-iron-geometry-msgs, ros-iron-rclcpp, ros-iron-realtime-tools, ros-iron-ros-workspace
+Description: Subscribes to twist msg and forwards to hardware
