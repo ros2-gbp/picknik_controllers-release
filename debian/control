@@ -1,0 +1,12 @@
+Source: ros-humble-picknik-reset-fault-controller
+Section: misc
+Priority: optional
+Maintainer: Alex Moriarty <alex.moriarty@picknik.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-ros, ros-humble-controller-interface, ros-humble-example-interfaces, ros-humble-geometry-msgs, ros-humble-rclcpp, ros-humble-realtime-tools, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-picknik-reset-fault-controller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-controller-interface, ros-humble-example-interfaces, ros-humble-geometry-msgs, ros-humble-rclcpp, ros-humble-realtime-tools, ros-humble-ros-workspace
+Description: ROS 2 controller that offers a service to clear faults in a hardware interface
