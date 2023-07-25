@@ -1,0 +1,12 @@
+Source: ros-rolling-picknik-twist-controller
+Section: misc
+Priority: optional
+Maintainer: lovro <lovro.ivanov@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake-ros, ros-rolling-controller-interface, ros-rolling-example-interfaces, ros-rolling-geometry-msgs, ros-rolling-rclcpp, ros-rolling-realtime-tools, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-picknik-twist-controller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-controller-interface, ros-rolling-example-interfaces, ros-rolling-geometry-msgs, ros-rolling-rclcpp, ros-rolling-realtime-tools, ros-rolling-ros-workspace
+Description: Subscribes to twist msg and forwards to hardware
