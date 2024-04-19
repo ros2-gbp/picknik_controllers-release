@@ -1,1 +1,1 @@
-{"base": "2453026", "parent": "debian/rolling/picknik_reset_fault_controller", "previous": "1ef8248", "trim": "", "trimbase": ""}
+{"base": "789ae4b", "parent": "debian/jazzy/picknik_reset_fault_controller", "previous": "c63b589", "trim": "", "trimbase": ""}
