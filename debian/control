@@ -1,0 +1,12 @@
+Source: ros-kilted-picknik-reset-fault-controller
+Section: misc
+Priority: optional
+Maintainer: Alex Moriarty <alex.moriarty@picknik.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake-ros, ros-kilted-controller-interface, ros-kilted-example-interfaces, ros-kilted-geometry-msgs, ros-kilted-rclcpp, ros-kilted-realtime-tools, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-picknik-reset-fault-controller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-controller-interface, ros-kilted-example-interfaces, ros-kilted-geometry-msgs, ros-kilted-rclcpp, ros-kilted-realtime-tools, ros-kilted-ros-workspace
+Description: ROS 2 controller that offers a service to clear faults in a hardware interface
