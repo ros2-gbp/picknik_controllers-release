@@ -1,3 +1,28 @@
+## picknik_controllers (rolling) - 0.0.5-1
+
+The packages in the `picknik_controllers` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling --track rolling picknik_controllers` on `Wed, 16 Sep 2026 15:58:06 -0000`
+
+These packages were released:
+- `picknik_reset_fault_controller`
+- `picknik_twist_controller`
+
+Version of package(s) in repository `picknik_controllers`:
+
+- upstream repository: https://github.com/PickNikRobotics/picknik_controllers.git
+- release repository: https://github.com/ros2-gbp/picknik_controllers-release.git
+- rosdistro version: `null`
+- old version: `0.0.4-3`
+- new version: `0.0.5-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## picknik_controllers (lyrical) - 0.0.5-1
 
 The packages in the `picknik_controllers` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release --rosdistro lyrical --track lyrical picknik_controllers` on `Wed, 16 Sep 2026 15:52:01 -0000`
